@@ -49,6 +49,10 @@ p {
 .weather-card-title img {
 	margin-top: -5px;
 }
+.five-day-forecast {
+	text-align: left;
+	margin-left: 15px;
+}
 .btn {
 	font-size: 1.3rem;
 	text-decoration: none;
@@ -176,7 +180,10 @@ p {
 .form-textarea {
 	display: block;
 }
-
+span .text-success {
+	background-color: green;
+	color: white;
+}
 .form-label {
 	font-size: 1.1rem;
 	margin: 0 0 0 5px;
@@ -507,4 +514,7 @@ p {
 .weather-card-title {
 	display: flex;
 	flex-direction: row;
+}
+#todaysWeather {
+	margin-left: 25px;
 }
