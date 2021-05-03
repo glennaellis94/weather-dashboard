@@ -40,8 +40,15 @@ main {
 
 p {
 	font-size: 1.2rem;
+	text-align: left;
+	align-items: center;
 }
-
+.weather-card-title h3 {
+	text-align: left;
+}
+.weather-card-title img {
+	margin-top: -5px;
+}
 .btn {
 	font-size: 1.3rem;
 	text-decoration: none;
@@ -496,4 +503,8 @@ p {
 	.col-xl-12 {
 		flex: 0 0 100%;
 	}
+}
+.weather-card-title {
+	display: flex;
+	flex-direction: row;
 }

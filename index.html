@@ -24,7 +24,6 @@
 	<body class="row text-center">
 		<header class="col 12 hero">
 			<h1 class="col-12 app-title display-3">Weather Dashboard</h1>
-			<p id="currentDay" class="lead"></p>
 		</header>
 
 		<main class="flex-row justify-space-between">
@@ -48,8 +47,23 @@
 			</div>
 
 			<div class="col-12 col-md-8">
-				<h2 class="subtitle">Showing Repositories for: <span id="repo-search-term"></span></h2>
+				<div class="col-md-8">
+					<div class="weather-card-title">
+						<h1 id="city"></h1>
+						<img id="current-icon" src="" alt="" />
+					</div>
+					<h1 id="current-temp"></h1>
+					<h1 id="current-wind"></h1>
+					<h1 id="current-humid"></h1>
+					<h1 id="current-uv"></h1>
+				</div>
 				<div id="repos-container" class="list-group"></div>
+			</div>
+			<div>
+				<h4>5-Day Forecast:</h4>
+				<div class="card">
+					<h4 id="five-day-forecast"></h4>
+				</div>
 			</div>
 		</main>
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
